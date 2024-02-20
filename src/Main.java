@@ -15,13 +15,20 @@ public class Main {
         FreshJuice juice;
         juice = new FreshJuice();
         juice.size = FreshJuice.FreshJuiceSize.MEDIUM;
+        juice.size2 = FreshJuice.FreshJuiceSize.SMALL;
+        juice.size3 = FreshJuice.FreshJuiceSize.LARGE;
+
+        juice.test();
+
+
 
     }
 }
 
 class FreshJuice{
     enum FreshJuiceSize{SMALL,MEDIUM,LARGE}
-    FreshJuiceSize size;
+    FreshJuiceSize size,size2,size3;
+
 
     public void test(){
         int age = 2;
