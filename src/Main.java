@@ -24,7 +24,7 @@ class FreshJuice{
     FreshJuiceSize size;
 
     public void test(){
-        int age = 1;
+        int age = 2;
         System.out.println(age);
 
     }
